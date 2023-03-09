@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>QR Code Generator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" />
+    <!-- Custom CSS -->
+    <link rel="style" type="text/css" href="/css/style.css"/>
+</head>
+
+<body>
+    <div class="container mt-5 app-container">
+        <h1 class="text-center">QR CODE GENERATOR</h1>
+        <hr>
+        <h4>Input</h4>
+          <hr>
+        <p>Please type the URL or Text below and click Generate!</p>
+        <form class="form" action="/qr/scan" method="POST" enctype="application/x-www-form-urlencoded">
+            <input name="url" class="form-control" placeholder="URL or Text" type="text" required>
+            <br>
+            <button type="submit" class="btn btn-primary" value="Get QR">Generate</button>
+        </form>
+            </div>
+</body>
+</html>

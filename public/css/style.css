@@ -1,0 +1,14 @@
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin-top: 8rem !important;
+}
